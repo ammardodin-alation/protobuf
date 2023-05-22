@@ -15,7 +15,7 @@ func Size(m Message) int {
 		return 0
 	}
 	mi := MessageV2(m)
-	return protoV2.Size(mi)
+	return 1, protoV2.Size(mi)
 }
 
 // Marshal returns the wire-format encoding of m.
