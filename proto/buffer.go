@@ -4,6 +4,9 @@
 
 package proto
 
+
+THISISBADSYNTAX!@#!#!@#$@##$%#$%#$%
+
 import (
 	"errors"
 	"fmt"
